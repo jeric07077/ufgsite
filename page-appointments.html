@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title> Welcome! </title>
+		<link href="css/activity.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">	
+	</head>
+
+<body>
+	<div class="container">
+		<div class="btn-top">
+				<h5 class="text-right"><a href=""> LOGOUT </a></h5>
+		</div>
+
+		<div class="text-center">
+		<h3> Successfully logged in! Welcome, <!-- {{user.name}} --> </h3>
+		<!-- 
+		{% if messages %}
+		<ul class="messages">
+		{% for message in messages %}
+		<li>{{ message }}</li>
+		{% endfor %}
+		</ul>
+		{% endif %}
+		-->
+		</div>
+
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2>Here is your Appointment for today, <!-- {{time}} --> :</h4>
+				<table>
+					<thead>
+						<th>Task</th>
+		                <th>Time</th>
+		                <th>Status</th>
+		                <th>Action</th>
+
+		                <td> 1 </td>
+		                <td> 2 </td>
+		                <td> 3 </td>
+		                <td> 4 </td>
+
+					</thead>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+   	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
