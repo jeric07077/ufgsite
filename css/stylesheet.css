@@ -1,0 +1,70 @@
+.row {
+	background-color: lavender;
+}
+
+.col-1 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: silver;
+}
+
+.col-2 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: green;
+}
+
+.col-3 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: blue;
+}
+
+.col-4 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: red;
+}
+
+.col-5 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: darkgreen;
+}
+
+.col-6 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: orange;
+}
+
+.col-7 {
+	margin: 3px;
+	min-height: 300px;
+	text-align: center;
+	background-color: beige;
+}
+
+.inside-col {
+	min-height: 100px;
+	text-align: center;
+	background-color: orange;
+}
+ input {
+ 	margin: 5px;
+ }
+
+div {
+	margin: 5px;
+}
+
+#test1 {
+	margin: 5px;
+}
+

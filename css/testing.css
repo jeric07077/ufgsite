@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+
+body{
+	 margin: 0;
+}
+
+header {
+	background-color: rgb(85,166,255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 31px;
+}
+
+.col-md-3 {
+	background-color: rgb(243,253,132);
+}
+
+.col-md-9 {
+	background-color: rgb(243,253,132);
+}
+
+footer {
+	background-color: rgb(85,166,255);
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#footerh4 {
+	text-align: center;
+}
+
+.refer-0 {
+	background-color: rgb(254,235,171);
+}
+
+.refer-1 {
+	background-color: rgb(172,234,226);
+}
+
+.refer-2 {
+	background-color: rgb(172,234,226);
+}
+
+.refer-3 {
+	background-color: rgb(254,235,171);
+}

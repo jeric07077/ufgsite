@@ -1,0 +1,84 @@
+body{
+	background:#ecf0f5;
+	overflow-x: hidden;
+}
+
+.container-fluid{
+	padding-left:0px !important;
+	padding-right:0px !important;
+}
+
+.login-wrapper{
+/*	width:45%;*/
+	margin:0 auto;
+}
+
+.hide-div{
+    display:none;
+}
+
+.space-top{
+	margin-top:10%;
+}
+
+.left-container{
+    width: 65.666667% !important;
+    background:url('../img/gym-facility.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    padding: 60px;
+}
+
+
+.left-container h1{
+    font-size:48px;
+    font-weight:bold;
+    color:#333;
+}
+
+.left-container h2{ 
+    font-weight:bold;
+    margin-top:-5px;
+}
+
+
+.left-container .build{
+    color:#337ab7;
+}
+
+.left-container .transform{
+    color:#d9534f;
+}
+
+
+
+.right-container{
+	background: #fff;
+	height: 100vh;
+	padding-top:60px;
+}
+
+.form-container{
+	width: 85%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.input-user,.input-pass{
+	-webkit-appearance: none;
+    transition: box-shadow .1s;
+    outline: none;
+    border: 0;
+    border-radius: .4rem;
+    box-shadow: inset 0 0 0 1px #e7e7e7;
+    background: #fff;
+    padding: 1.5rem;
+    width: 100%;
+    color: #262727;
+    font-size: 1.4rem;
+}
+
+.submit-reg{
+	padding:1.5rem;
+}
